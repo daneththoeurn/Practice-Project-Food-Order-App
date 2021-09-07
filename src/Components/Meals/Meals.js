@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import MealsSummary from "./MealSummary";
 import AvailableMeals from "./AvailableMeals";
 
 function Meals() {
   return (
-    <div>
+    <Fragment>
       <MealsSummary />
       <AvailableMeals />
-    </div>
+    </Fragment>
   );
 }
 
